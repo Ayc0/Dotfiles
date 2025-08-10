@@ -26,3 +26,4 @@ _darcs
 
 \.vscode
 .*\.iterm2\.plist
+^/images

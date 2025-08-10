@@ -62,3 +62,9 @@ Add this to your `~/.gitconfig`:
 [include]
 	path = ~/.config/git/config
 ```
+
+### iTerm2
+
+In iTerm2 settings, go to: "General" > "Settings", and enable "External Settings" > "Load settings from a custom folder or URL" with `~/.dotfiles`. And "Save changes "Automatically"
+
+![iTerm2 config](./images/iTerm2.png)
