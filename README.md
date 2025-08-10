@@ -6,13 +6,13 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Install iTerm2
+### Install Graphical tools
 
 ```bash
-brew install --cask iterm2
+brew install --cask iterm2 raycast
 ```
 
-### Install classic tools
+### Install CLI tools
 
 ```bash
 brew install git zsh stow zoxide fzf bat ffmpeg thefuck font-fira-code-nerd-font font-fira-code starship
