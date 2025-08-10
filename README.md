@@ -1,24 +1,24 @@
-# Install
+## Install
 
-## Install brew
+### Install brew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Install iTerm2
+### Install iTerm2
 
 ```bash
 brew install --cask iterm2
 ```
 
-## Install classic tools
+### Install classic tools
 
 ```bash
 brew install git zsh stow zoxide fzf bat ffmpeg thefuck font-fira-code-nerd-font font-fira-code starship
 ```
 
-## Setup ZSH
+### Setup ZSH
 
 ```bash
 # Oh my zsh
@@ -36,16 +36,29 @@ git clone --depth=1 https://github.com/ntnyq/omz-plugin-pnpm.git ${ZSH_CUSTOM:-$
 # ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 
-And then, add this to your `~/.zshrc`:
+## Setup
 
-```zsh
-source ~/.config/zshrc
-```
-
-## Setup dotfiles
+### Setup dotfiles
 
 ```bash
 git clone git@github.com:Ayc0/Dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 stow .
+```
+
+### ZSH
+
+Add this to your `~/.zshrc`:
+
+```zsh
+source ~/.config/zshrc
+```
+
+### Git
+
+Add this to your `~/.gitconfig`:
+
+```config
+[include]
+	path = ~/.config/git/config
 ```
