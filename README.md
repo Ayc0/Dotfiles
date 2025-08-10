@@ -36,6 +36,12 @@ git clone --depth=1 https://github.com/ntnyq/omz-plugin-pnpm.git ${ZSH_CUSTOM:-$
 # ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 
+And then, add this to your `~/.zshrc`:
+
+```zsh
+source ~/.config/zshrc
+```
+
 ## Setup dotfiles
 
 ```bash
