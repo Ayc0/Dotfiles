@@ -1,0 +1,13 @@
+[user]
+	name = Ayc0
+	email = ayc0.benj@gmail.com
+[core]
+	compression = 0
+	mergeoptions = --no-edit
+[push]
+	autoSetupRemote = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+	insteadOf = git://github.com/
+[rerere]
+	enabled = true
