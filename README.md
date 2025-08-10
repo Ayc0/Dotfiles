@@ -36,6 +36,10 @@ git clone --depth=1 https://github.com/ntnyq/omz-plugin-pnpm.git ${ZSH_CUSTOM:-$
 # ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 
+### Raycast
+
+Go to https://www.raycast.com/ and click on " Download"
+
 ## Setup
 
 ### Setup dotfiles
@@ -68,3 +72,13 @@ Add this to your `~/.gitconfig`:
 In iTerm2 settings, go to: "General" > "Settings", and enable "External Settings" > "Load settings from a custom folder or URL" with `~/.dotfiles`. And "Save changes "Automatically"
 
 ![iTerm2 config](./images/iTerm2.png)
+
+### Raycast
+
+First, disable the regular shortcut for Spotlight:
+
+![Keyboard shortcuts spotlights](./images/Keyboard-shortcuts-spotlights.png)
+
+Then import settings from `~/.dotfiles/Raycast.rayconfig`:
+
+![Raycast import/exports](./images/Raycast.png)
