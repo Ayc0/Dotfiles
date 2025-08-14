@@ -4,6 +4,7 @@
 [core]
 	compression = 0
 	mergeoptions = --no-edit
+	editor = code --wait
 [push]
 	autoSetupRemote = true
 [url "git@github.com:"]
