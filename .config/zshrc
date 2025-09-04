@@ -62,7 +62,8 @@ localpnp () {
 eval $(thefuck --alias)
 
 # SSHs
-ssh-add -l > /dev/null || ssh-add --apple-load-keychain 2> /dev/null # save passphrase
+ssh-add -l > /dev/null
+ssh-add --apple-load-keychain 2> /dev/null # save passphrase
 # END CUSTOM ALIASES
 
 # Node
