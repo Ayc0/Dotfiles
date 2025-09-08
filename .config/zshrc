@@ -45,8 +45,10 @@ eval "$(zoxide init --cmd cd zsh)"
 # BEGIN CUSTOM ALIASES
 # Basic
 
-alias less="/usr/local/bin/less"
 alias cat="bat"
+
+# Brew
+alias bu="brew update && brew upgrade"
 
 # Yarn
 alias ytw="yarn test --watch"
