@@ -3,6 +3,9 @@
 # Inserts a blank line between shell prompts
 add_newline = true
 
+# Allow Git to initialize properly on bigger repos
+command_timeout = 2000
+
 format = '$time$all'
 
 [directory]
