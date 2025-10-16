@@ -36,10 +36,6 @@ git clone --depth=1 https://github.com/ntnyq/omz-plugin-pnpm.git ${ZSH_CUSTOM:-$
 # ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 
-### Raycast
-
-Go to https://www.raycast.com/ and click on " Download"
-
 ## Setup
 
 ### Setup dotfiles
