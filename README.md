@@ -15,7 +15,7 @@ brew install --cask iterm2 raycast
 ### Install CLI tools
 
 ```bash
-brew install git zsh stow zoxide fzf bat ffmpeg thefuck font-fira-code-nerd-font font-fira-code starship wget ripgrep uv
+brew install git zsh stow zoxide fzf bat ffmpeg thefuck font-fira-code-nerd-font font-fira-code starship wget ripgrep uv volta
 ```
 
 ### Setup ZSH
