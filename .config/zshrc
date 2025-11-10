@@ -51,7 +51,6 @@ alias cat="bat"
 alias bu="brew update && brew upgrade"
 
 # Yarn
-alias ytw="yarn test --watch"
 localpnp () {
 	local abs=`which $1`
 	local resolved=`readlink -f $abs`
