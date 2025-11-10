@@ -1,0 +1,10 @@
+font-family = FiraCode Nerd Font Mono
+
+# Natural editing https://github.com/ghostty-org/ghostty/issues/3106
+keybind = cmd+right=text:\x05
+keybind = cmd+left=text:\x01
+keybind = alt+left=esc:b
+keybind = alt+right=esc:f
+
+# Theme
+theme = dark:Night Owl,light:GitLab Light

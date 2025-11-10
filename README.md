@@ -9,7 +9,7 @@
 ### Install Graphical tools
 
 ```bash
-brew install --cask iterm2 raycast
+brew install --cask iterm2 raycast ghostty
 ```
 
 ### Install CLI tools

@@ -85,3 +85,6 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 unsetopt autocd
 
 export VOLTA_FEATURE_PNPM=1
+
+# Ghostty
+export XDG_CONFIG_HOME="$HOME/.config"
