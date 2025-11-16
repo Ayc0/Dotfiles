@@ -24,6 +24,7 @@ _darcs
 
 # Custom
 
+\.DS_Store
 \.vscode
 .*\.iterm2\.plist
 ^/images
