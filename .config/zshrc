@@ -39,8 +39,10 @@ eval "$(starship init zsh)"
 export LS_COLORS='no=00:fi=00:di=01;32:ln=36:pi=33:so=01;35:bd=01;33:cd=01;33:ex=01;31'
 # END OH MY ZSH
 
-# Load zoxide instead of cd
-eval "$(zoxide init --cmd cd zsh)"
+# Load zoxide instead of cd, but not for non interactive shells
+if [[ -o interactive ]]; then
+  eval "$(zoxide init zsh --cmd cd)"
+fi
 
 # BEGIN CUSTOM ALIASES
 # Basic
